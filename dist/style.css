@@ -558,8 +558,16 @@ video {
   display: flex;
 }
 
+.max-w-\[1440px\] {
+  max-width: 1440px;
+}
+
 .list-none {
   list-style-type: none;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 .items-center {
@@ -588,6 +596,10 @@ video {
 
 .gap-\[5px\] {
   gap: 5px;
+}
+
+.gap-\[73px\] {
+  gap: 73px;
 }
 
 .rounded-\[10px\] {
