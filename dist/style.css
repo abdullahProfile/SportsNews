@@ -645,6 +645,10 @@ video {
   display: flex;
 }
 
+.hidden {
+  display: none;
+}
+
 .w-\[100\%\] {
   width: 100%;
 }
@@ -907,4 +911,16 @@ video {
 .hover\:text-blue-700:hover {
   --tw-text-opacity: 1;
   color: rgb(29 78 216 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:left-\[200px\] {
+    left: 200px;
+  }
 }
