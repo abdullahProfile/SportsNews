@@ -144,7 +144,7 @@
      </div>
     </div>
 
-    <div class="max-w-[1170px] mx-auto flex gap-8 flex-wrap">
+    <div class="max-w-[1170px] mx-auto flex gap-8 my-20 flex-wrap xl:flex-nowrap xl:justify-start justify-center items-center">
       <div class="flex flex-col gap-2">
         <h5 class="text-[18px] font-medium capitalize">Recent News</h5>
 
@@ -199,153 +199,251 @@
         <a href="#" class="no-underline flex gap-1 items-center w-20 bg-[#B8C2CE] p-2 rounded-md mx-auto text-[#fff] mt-3">More <span><img src="./assets/hero/right arrow.svg" alt="arrow"></span></a>
       </div>
 
-      <div class="pt-[20px] pb-[20px] pl-[31px] pr-[23px] bg-[#EBEEF3] max-w-xl">
+      <div class="flex flex-col hidden md:block gap-4">
+        <h4 class="text-[28px] font-medium">Clubs Ranking</h4>
+        <div class="max-w-xl pt-[20px] pb-[20px] pl-[31px] pr-[23px] bg-[#EBEEF3]">
+          <table class="table-auto w-full">
+            <thead>
+              <tr>
+                <th class="font-semibold text-[#262626] uppercase px-[8px] text-start">Club</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">GP</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">w</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">d</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">l</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">f</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">g</th>
+                <th class="font-semibold text-[#262626] uppercase px-4">gd</th>
+              </tr>
+            </thead>
+  
+            <tbody>
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>1</p>
+                    <img src="./assets/hero/teamOne.svg" alt="image">
+                    <p>Manchester City</p>
+                  </div>
+                </td>
+    
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+  
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>2</p>
+                    <img src="./assets/hero/imageFour.svg" alt="image">
+                    <p>Liverpool</p>
+                  </div>
+                </td>
+  
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+  
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>3</p>
+                    <img src="./assets/hero/imageFour.svg" alt="image">
+                    <p>Chelsea</p>
+                  </div>
+                </td>
+    
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+  
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>4</p>
+                    <img src="./assets/hero/teamFour.svg" alt="image">
+                    <p>Tottenham Hotspur</p>
+                  </div>
+                </td>
+    
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+  
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>5</p>
+                    <img src="./assets/hero/teamFive.svg" alt="image">
+                    <p>Arsenal</p>
+                  </div>
+                </td>
+    
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+  
+              <tr class="border-b-2 border-gray-300">
+                <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
+                  <div class="flex items-center gap-1">
+                    <p>6</p>
+                    <img src="./assets/hero/teamSixth.svg" alt="image">
+                    <p>Manchester Unitedy</p>
+                  </div>
+                </td>
+    
+                <td class="text-[#262626] px-4 pb-2">38</td>
+                <td class="text-[#262626] px-4 pb-2">29</td>
+                <td class="text-[#262626] px-4 pb-2">6</td>
+                <td class="text-[#262626] px-4 pb-2">3</td>
+                <td class="text-[#262626] px-4 pb-2">99</td>
+                <td class="text-[#262626] px-4 pb-2">26</td>
+                <td class="text-[#262626] px-4 pb-2">73</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
 
-        <table class="table-auto w-full">
-          <thead>
-            <tr>
-              <th class="font-semibold text-[#262626] uppercase px-[8px] text-start">Club</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">GP</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">w</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">d</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">l</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">f</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">g</th>
-              <th class="font-semibold text-[#262626] uppercase px-4">gd</th>
-            </tr>
-          </thead>
-  
-          <tbody>
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+    <div class="max-w-[1170px] mx-auto flex flex-col gap-[34px] xl:p-0 px-5 xl:items-start items-center mb-10">
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+      <h5 class="text-[#262626] text-[28px] font-medium">Sports Article </h5>
+      <div class="flex gap-[30px] flex-wrap xl:flex-nowrap xl:justify-start justify-center">
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+        <div class="max-w-[370px] relative">
+          <button class="py-[6px] px-[10px] rounded-md border-[2px] border-white absolute right-4 top-4 text-[#fff]">Basketball</button>
+          <div class="max-w-[370px] object-cover overflow-hidden rounded-lg mb-7">
+            <img src="./assets/hero/basketball-equipment.svg" class="max-h-full" alt="image">
+          </div>
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+          <div class="flex flex-col gap-5">
+            <div class="flex gap-4 items-center">
+              <div class="w-[44px] rounded-full object-cover overflow-hidden"><img src="./assets/hero/profileOne.svg" class="w-full" alt="profile"></div>
+              <p class="text-[14px] font-medium text-[#3E3232]">Jake Will.</p>
+            </div>
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+            <div class="flex flex-col gap-5">
+              <p class="font-medium text-[14px] text-[#686868]">04 June 2023</p>
+              <h4 class="text-[22px] text-[#262626] font-medium">5 Exercises Basketball Players Should Be Using To Develop Strength</h4>
+              <p class="font-medium text-[#686868]">This article was written by Jake Willhoite from Healthlisted.com Strength in basketball isn’t all about a massive body mass or ripped muscles.</p>
+            </div>
+          </div>
+        </div>
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
+        <div class="max-w-[370px] relative">
+          <button class="py-[6px] px-[10px] rounded-md border-[2px] border-white absolute right-4 top-4 text-[#fff]">hockey</button>
+          <div class="max-w-[370px] object-cover overflow-hidden rounded-lg mb-7">
+            <img src="./assets/hero/hockey-players.svg" class="max-h-full" alt="image">
+          </div>
 
-            <tr class="border-b-2 border-gray-300">
-              <td class="text-[#262626] font-semibold text-[13px] px-[8px] pb-2">
-                <div class="flex items-center gap-1">
-                  <p>1</p>
-                  <img src="./assets/hero/teamOne.svg" alt="image">
-                  <p>Manchester City</p>
-                </div>
-              </td>
-  
-              <td class="text-[#262626] px-4 pb-2">38</td>
-              <td class="text-[#262626] px-4 pb-2">29</td>
-              <td class="text-[#262626] px-4 pb-2">6</td>
-              <td class="text-[#262626] px-4 pb-2">3</td>
-              <td class="text-[#262626] px-4 pb-2">99</td>
-              <td class="text-[#262626] px-4 pb-2">26</td>
-              <td class="text-[#262626] px-4 pb-2">73</td>
-            </tr>
-          </tbody>
-        </table>
+          <div class="flex flex-col gap-5">
+            <div class="flex gap-4 items-center">
+              <div class="w-[44px] rounded-full object-cover overflow-hidden"><img src="./assets/hero/profileTwo.svg" class="w-full" alt="profile"></div>
+              <p class="text-[14px] font-medium text-[#3E3232]">Foxi.zacon</p>
+            </div>
+
+            <div class="flex flex-col gap-5">
+              <p class="font-medium text-[14px] text-[#686868]">03 June 2023</p>
+              <h4 class="text-[22px] text-[#262626] font-medium">Golden Knights out to fulfill owner's quest to win Stanley Cup in 6th year</h4>
+              <p class="font-medium text-[#686868]">The Vegas Golden Knights will play the Florida Panthers in the Stanley Cup Final beginning Saturday.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="max-w-[370px] relative">
+          <button class="py-[6px] px-[10px] rounded-md border-[2px] border-white absolute right-4 top-4 text-[#fff]">badminton</button>
+          <div class="max-w-[370px] object-cover overflow-hidden rounded-lg mb-7">
+            <img src="./assets/hero/badminton-racquet.svg" class="max-h-full" alt="image">
+          </div>
+
+          <div class="flex flex-col gap-5">
+            <div class="flex gap-4 items-center">
+              <div class="w-[44px] rounded-full object-cover overflow-hidden"><img src="./assets/hero/profileThree.svg" class="w-full" alt="profile"></div>
+              <p class="text-[14px] font-medium text-[#3E3232]">Bong Lozada</p>
+            </div>
+
+            <div class="flex flex-col gap-5">
+              <p class="font-medium text-[14px] text-[#686868]">01 June 2023</p>
+              <h4 class="text-[22px] text-[#262626] font-medium">‘Outdoor’ Badminton Gets Support From Local Federation</h4>
+              <p class="font-medium text-[#686868]">The Badminton World Federation is developing Air Badminton and the country’s governing body, Philippine Badminton Association.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex gap-[30px]">
+        <button class="max-w-[70px] bg-[#BAB8B8] py-6 px-6"><img src="./assets/hero/left arrow.svg" alt="left arrow"></button>
+        <button class="bg-black py-6 px-6 max-w-[70px]"><img src="./assets/hero/right arrow.svg" alt="right arrow"></button>
       </div>
     </div>
   </main>
 
+  <footer>
+    <div class="max-w-[1170px] mx-auto mb-20 flex flex-col gap-12">
+      <div class="flex bg-[#EBEEF3] flex-wrap xl:flex-nowrap xl:justify-between justify-center">
+        <div class="max-w-[514px] flex flex-col gap-10 xl:py-[83px] xl:pl-16 py-3 px-3">
+          <h3 class="xl:text-[60px] text-[40px] font-bold bg-gradient-to-b from-[#262626] to-[#B8C2CE] bg-clip-text text-transparent leading-[60px]">Newsletter Subscription</h3>
+
+          <label class="relative max-w-[504px]">
+            <input type="email" name="#" id="#" placeholder="abdi.khan0099@gmail.com" class="py-[13px] px-9 border-[2px] xl:w-full w-auto rounded-l-md border-black">
+            <span class="bg-[#262626] py-5 px-7 absolute right-0 w-[70px] rounded-r-md hidden md:block"><img src="./assets/hero/inputArrow.svg" alt="arrow"></span>
+          </label>
+        </div>
+
+        <div class="max-w[520px] object-cover relative z-10">
+          <img src="./assets/hero/american-football-player.svg" class="w-full" alt="american-football-player">
+          <img src="./assets/hero/image-Bg.svg" class="absolute left-0 z-[-1] top-0" alt="background image">
+        </div>
+      </div>
+
+      <div class="flex gap-4 items-center flex-wrap xl:flex-nowrap xl:justify-between justify-center">
+        <div class="flex gap-6 items-center">
+          <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" class="inline-block p-[10px] bg-[#262626] rounded-xl hover:opacity-80 transition">
+            <img src="./assets/icons/fa.svg" alt="facebook" class="w-5 h-5">
+          </a>
+          <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" class="inline-block p-[10px] bg-[#262626] rounded-xl hover:opacity-80 transition">
+            <img src="./assets/icons/insta.svg" alt="facebook" class="w-5 h-5">
+          </a>
+          <a href="https://www.facebook.com/yourusername" target="_blank" rel="noopener noreferrer" class="inline-block p-[10px] bg-[#262626] rounded-xl hover:opacity-80 transition">
+            <img src="./assets/icons/twitter.svg" alt="facebook" class="w-5 h-5">
+          </a>
+        </div>
+
+        <div class="flex items-center gap-4 justify-between">
+          <button class="max-w-[70px] bg-[#BAB8B8] py-6 px-6"><img src="./assets/hero/left arrow.svg" alt="left arrow"></button>
+          <button class="bg-black w-6 rounded-[50%] text-[#fff] text-[24px]">1</button>
+          <button class="text-[#535353] text-[24px]">2</button>
+          <button class="text-[#535353] text-[24px]">3</button>
+          <button class="text-[#535353] text-[24px]">4</button>
+          <button class="bg-black py-6 px-6 max-w-[70px]"><img src="./assets/hero/right arrow.svg" alt="right arrow"></button>
+         </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
